@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;600;700&family=Open+Sans:wght@300;500&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Cuprum;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #1d1d1d;
+}
+
+header {
+    margin: 0 auto;
+    font-family: Cuprum;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #0A0A0A;
+    width: 1024px;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.logo {
+    margin-top: 20px;
+    min-width: 150px;
+    color: white;
+    width: 20% ;
+}
+
+div.logo-img {
+    background: url(img/in_head.jpg) lightgray 50% / cover no-repeat;
+    width: 70%;
+    margin: 10px 0;
+    height: 178px;
+    max-width: 100%;
+    flex-shrink: 0;
+    border-radius: 11px;
+
+}
+
+div.nav {
+    width: 1024px;
+    height: 100px;
+    background: #101010;
+    margin: 0 auto;
+}
+
+button.basket {
+    background: none;
+    background-image: url(img/basket.png);
+    background-size: cover;
+    margin-top: 17px;
+    width: 70px;
+    height: 67px;
+    flex-shrink: 0;
+    background-position: center;
+    border: none;
+}
+
+div.basket {
+    background: #3d3d3d;
+    width: 340px;
+    height: auto;
+    min-height: 50px;
+    color: white;
+    font-family: Cuprum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h2.basket {
+    margin: 9px 0 0 10px;
+}
