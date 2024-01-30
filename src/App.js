@@ -1,9 +1,10 @@
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 
+
 function App() {
     return (
-      <div className="all_companents">
+      <div id="app" className="all_companents">
       <Header/>
       <Navigation/>
       </div>

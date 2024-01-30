@@ -1,45 +1,43 @@
 import React from "react";
 import Popup from "reactjs-popup";
-  
+import { useState } from "react";
 
 export default function Navigation() {
-    let val = 1
-    function mybutton(name){
-        val = name
+
+    function NavButton() {
+        const [value, setValue] = useState(1);
+
+
+        function click(numder) {
+            setValue(numder);
+        }
+        return (<div>
+            <div>
+                <button className="nav-but" onClick={click(1)}>Мебель</button>
+                <button className="nav-but" onClick={click(2)}>Освещение</button>
+                <button className="nav-but" onClick={click(3)}>Декорации</button>
+            </div>
+            {value}
+        </div>
+        )
+
     }
 
-    
+
+
     return (
-    <div className="nav">
-        <Popup trigger={<button className="basket"></button>} position="bottom left">
-            <div className="basket">
-                <h2 className="basket">Корзина</h2>
-            </div>
-        </Popup>
-    
+        <div className="nav">
+            <Popup trigger={<button className="basket"></button>} position="bottom left">
+                <div className="basket">
+                    <h2 className="basket">Корзина</h2>
+                </div>
+            </Popup>
 
-    
-    
-    <button name="NavButton1" onClick={() => mybutton(1)}>Мебель</button>
-    <button name="NavButton2" onClick={() => mybutton(2)}>Освещение</button>
-    <button name="NavButton3" onClick={() => mybutton(3)}>Декорации</button>
-    <div>{val}</div>
 
-    <div>
-    {val === 1 && 
-    <div>
-    Один
-    </div>}
-    {val === 2 && 
-    <div>
-    Два
-    </div>}
-    {val === 3 && 
-    <div>
-    Три
-    </div>}
-    </div>
+            <NavButton/>
 
-    </div>
+
+        </div>
     )
+
 }
