@@ -23,11 +23,12 @@ header {
     flex-direction: row;
     justify-content: space-around;
 }
+
 div.logo {
     margin-top: 20px;
     min-width: 150px;
     color: white;
-    width: 20% ;
+    width: 20%;
 }
 
 div.logo-img {
@@ -46,6 +47,9 @@ div.nav {
     height: 100px;
     background: #101010;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 button.basket {
@@ -53,6 +57,7 @@ button.basket {
     background-image: url(img/basket.png);
     background-size: cover;
     margin-top: 17px;
+    margin-left: 10px;
     width: 70px;
     height: 67px;
     flex-shrink: 0;
@@ -74,4 +79,35 @@ div.basket {
 
 h2.basket {
     margin: 9px 0 0 10px;
+}
+
+.nav-but {
+    color: #FFF;
+
+    font-family: Cuprum;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border-style: none;
+}
+
+.mainShop{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button.reg {
+    background: none;
+    background-image: url(img/reg.png);
+    background-size: cover;
+    margin-top: 17px;
+    margin-left: 10px;
+    width: 70px;
+    height: 67px;
+    flex-shrink: 0;
+    background-position: center;
+    border: none;
 }
