@@ -93,7 +93,7 @@ h2.basket {
     border-style: none;
 }
 
-.mainShop{
+.mainShop {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -110,4 +110,126 @@ button.reg {
     flex-shrink: 0;
     background-position: center;
     border: none;
+}
+
+.FurIMG {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+.ShopItem {
+    font-size: 25px;
+    width: 200px;
+    margin: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ShopItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ShopItemText {
+    display: flex;
+    height: 133px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.ShopButton {
+    display: flex;
+    font-size: 20px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: none;
+    color: #000000;
+}
+
+.ShopButton:hover {
+
+    background: #292929;
+}
+
+.ItemName {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+
+.ItemPrice {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    font-size: 22px;
+}
+
+.Sort {
+    width: 200px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25px;
+
+
+}
+
+.SortList {
+    display: block;
+    border: 0px;
+    padding: 0px;
+    font-family: Cuprum;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #1d1d1d;
+    border: 1px solid #1d1d1d;
+}
+
+.SortAling {
+    display: flex;
+    justify-content: center;
+}
+
+.SortText {
+    margin:  3px 0px 0px 0px;
+    white-space: nowrap
+}
+.SortListButton{
+    border: 0px;
+    background: none;
+    font-size: 18px;
+    font-family: Cuprum;
+}
+
+.SortListOption{
+    border: 1px solid #1d1d1d;
+}
+
+
+button.SortListButton:hover{
+    background-color: #3d3d3d;
+}
+
+.footer{
+    background-color:#101010;
+}
+
+.More{
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+}
+.MoreButton:hover{
+    background: #292929;
+}
+
+.MoreButton{
+    display: inline-block;
+    margin-left: 10px;
 }

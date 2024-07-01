@@ -1,0 +1,37 @@
+[
+    {
+        "ID": 1,
+        "Name": "Cтол Ренцо-2",
+        "Price": 8599,
+        "ImgUrl": "Img/ImgDecorations/Table_1.jpg",
+        "Size": "119,9х78,6х59,7 см"
+    },
+    {
+        "ID": 2,
+        "Name": "Тумба Alexys",
+        "Price": 10999,
+        "ImgUrl": "Img/ImgDecorations/Table_2.jpg",
+        "Size": "36х72х58 см"
+    },
+    {
+        "ID": 3,
+        "Name": "Cтол SCANDICA",
+        "Price": 8999,
+        "ImgUrl": "Img/ImgDecorations/Table_3.jpg",
+        "Size": "120х77х54 см"
+    },
+    {
+        "ID": 4,
+        "Name": "Cтол Милан",
+        "Price": 2999,
+        "ImgUrl": "Img/ImgDecorations/Table_4.jpg",
+        "Size": "105х75х49,6 см"
+    },
+    {
+        "ID": 5,
+        "Name": "Cтол Уно-5",
+        "Price": 4499,
+        "ImgUrl": "Img/ImgDecorations/Table_5.jpg",
+        "Size": "151х75х65 см"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "ID": 1,
+        "Name": "Кровать Соренто",
+        "Price": 7999,
+        "ImgUrl": "Img/ImgFurniture/Bed_1.jpg",
+        "SleepingPlaces": "2",
+        "Size": "148х88х215 см"
+    },
+    {
+        "ID": 2,
+        "Name": "Кровать Каприз",
+        "Price": 21999,
+        "ImgUrl": "Img/ImgFurniture/Bed_2.jpg",
+        "SleepingPlaces": "2",
+        "Size": "188х101х212 см"
+    },
+    {
+        "ID": 3,
+        "Name": "Кровать МСП",
+        "Price": 21999,
+        "ImgUrl": "Img/ImgFurniture/Bed_3.jpg",
+        "SleepingPlaces": "2",
+        "Size": "163,4х78,4х203,2 см"
+    },
+    {
+        "ID": 4,
+        "Name": "Кровать Коста",
+        "Price": 33999,
+        "ImgUrl": "Img/ImgFurniture/Bed_4.jpg",
+        "SleepingPlaces": "2",
+        "Size": "130х101х213 см"
+    },
+    {
+        "ID": 5,
+        "Name": "Кровать SOLANA",
+        "Price": 36999,
+        "ImgUrl": "Img/ImgFurniture/Bed_5.jpg",
+        "SleepingPlaces": "2",
+        "Size": "192х112х216 см"
+    }
+]
